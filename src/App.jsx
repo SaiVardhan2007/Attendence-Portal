@@ -1,7 +1,6 @@
-import React from 'react'
 import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom'
 import { AppProvider, useAppContext } from './context/AppContext'
-import Header from './components/Header.jsx'
+import Header from './components/Header'
 import LoginPage from './pages/LoginPage'
 import HomePage from './pages/HomePage'
 import RestaurantDetails from './pages/RestaurantDetails'
